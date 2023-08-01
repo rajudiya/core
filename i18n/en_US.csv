@@ -1,0 +1,62 @@
+Enabled,Enabled
+Disabled,Disabled
+"(New version %1 is available in your account: ","(New version %1 is available in your account: "
+"Get Update","Get Update"
+"1 Day","1 Day"
+"2 Days","2 Days"
+"3 Days","3 Days"
+"4 Days","4 Days"
+"5 Days","5 Days"
+"6 Days","6 Days"
+"7 Days","7 Days"
+"8 Days","8 Days"
+"9 Days","9 Days"
+"10 Days","10 Days"
+"Common News","Common News"
+Promotions/Discounts,Promotions/Discounts
+"My Extensions Updates","My Extensions Updates"
+"All Extensions Updates","All Extensions Updates"
+"New Extensions","New Extensions"
+"Magento Tricks & Tips","Magento Tricks & Tips"
+"Disable Notifications","Disable Notifications"
+"<style>
+                        .config-nav-block.magentobrain-tab .title {
+                            padding-top: 15px;
+                            padding-bottom: 15px;
+                        }
+                        .config-nav-block.magentobrain-tab strong:before {
+                            background: no-repeat url(../images/logo-30x30.png);
+                            background-size: 28px 28px;
+                            width: 26px;
+                            height: 30px;
+                            content: '';
+                            display: inline-block;
+                            vertical-align: middle;
+                        }
+                    </style>
+                    MagentoBrain Extensions","<style>
+                        .config-nav-block.magentobrain-tab .title {
+                            padding-top: 15px;
+                            padding-bottom: 15px;
+                        }
+                        .config-nav-block.magentobrain-tab strong:before {
+                            background: no-repeat url(../images/logo-30x30.png);
+                            background-size: 28px 28px;
+                            width: 26px;
+                            height: 30px;
+                            content: '';
+                            display: inline-block;
+                            vertical-align: middle;
+                        }
+                    </style>
+                    MagentoBrain Extensions"
+"Information &amp; Marketplace","Information &amp; Marketplace"
+Notifications,Notifications
+"Enable Notifications","Enable Notifications"
+"Select Yes if you want get latest information about new or updated MagentoBrain extensions, discounts, atricles and etc.","Select Yes if you want get latest information about new or updated MagentoBrain extensions, discounts, atricles and etc."
+"I'd like to be informed by MagentoBrain about:","I'd like to be informed by MagentoBrain about:"
+"Select notice types that you want to receive notifications","Select notice types that you want to receive notifications"
+"Update Frequency","Update Frequency"
+"Last Update","Last Update"
+"Installed Extensions","Installed Extensions"
+"MagentoBrain Marketplace","MagentoBrain Marketplace"

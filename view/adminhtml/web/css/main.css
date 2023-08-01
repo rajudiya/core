@@ -1,0 +1,89 @@
+.magentobrain-grid-message .magentobrain-notif-logo {
+    margin-right: 15px;
+    height: 75px;
+    width: 60px;
+    /* float: left; */
+    display: inline-block;
+    background: url(../images/logo-53x53.png) no-repeat;
+    background-position-y: 10px;
+    background-size: 53px;
+    border-right: 1px dashed gray;
+}
+
+.admin__action-dropdown-menu .notifications-entry[data-magentobraincore-logo="1"] {
+    padding-left: 37px;
+    background: url(../images/logo-30x30.png) no-repeat 5px 15px;
+    background-size: 30px;
+}
+
+div.magentobrain-grid-message > div.ambase-grid-message {
+    padding-left: 0px;
+    min-height: 0px;
+    background: unset;
+}
+.config-nav-block.magentobrain-tab .title {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.config-nav-block.magentobrain-tab strong:before {
+    background: no-repeat url(../images/logo-30x30.png);
+    background-size: 28px 28px;
+    width: 26px;
+    height: 30px;
+    margin-left: -3px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.admin__menu [data-ui-id^="menu-magentobrain-"] .submenu-group-title span:before,
+.admin__menu [data-ui-id^="menu-magento-"] [data-ui-id^="menu-magento-"] [data-ui-id^="menu-magentobrain-"] span:before {
+    background: url(../images/logo-30x30.png) no-repeat;
+    width: 27px;
+    height: 30px;
+    content: '';
+    display: inline-block;
+    margin-right: 6px;
+    vertical-align: top;
+    margin-top: -5px;
+}
+
+#menu-magentobrain-core-menu span::before {
+    background: unset;
+    content: '';
+    width: 0;
+    height: 0;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+#menu-magentobrain-core-menu > a:before {
+    content: '' !important;
+    background: url(../images/logo-30x30.png)
+    no-repeat center !important;;
+    background-size: contain !important;;
+    font-size: 3rem !important;;
+    height: 3.5rem !important;;
+}
+#menu-magentobrain-core-menu > a:hover:before, #menu-magentobrain-core-menu._show > a:before {
+    background: url(../images/logo-30x30.png)
+    no-repeat center;
+    background-size: contain;
+}
+
+.admin__action-dropdown-menu .notifications-entry[data-magentobraincore-logo="1"]:not(.notifications-entry-last)  {
+    padding-left: 37px;
+    background: url(../images/logo-30x30.png) no-repeat 5px 5px;
+    background-size: 30px;
+}
+
+.admin__action-dropdown-menu .notifications-entry:not(.notifications-entry-last)  {
+    border-bottom: 1px dashed gray;
+}
+
+div.magentobrain-grid-message span.grid-row-title {
+    font-weight: 600;
+}
+.a {
+    color:chocolate ;
+}

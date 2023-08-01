@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author MagentoBrain Team
+ * @copyright Copyright (c) 2022 MagentoBrain (https://www.magentobrain.com)
+ * @package MagentoBrain_Core
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\AdminNotification\Block\ToolbarEntry">
+        <plugin name="MagentoBrain_Core::add-magentobrain-logo-in-toolbar"
+                type="MagentoBrain\Core\Plugin\Notifications\MagentoBrainNotificationLogoAddInToolbar"/>
+    </type>
+    <type name="Magento\AdminNotification\Block\Grid\Renderer\Notice">
+        <plugin name="MagentoBrain_Core::add-magentobrain-logo"
+                type="MagentoBrain\Core\Plugin\Notifications\MagentoBrainNotificationLogoAdd"/>
+    </type>
+    <type name="Magento\AdminNotification\Block\Grid\Renderer\Actions">
+        <plugin name="MagentoBrain_Core::add-disable-notifications"
+                type="MagentoBrain\Core\Plugin\Notifications\GridActions"/>
+
+    </type>
+    <type name="Magento\Backend\Model\Menu\Item">
+        <plugin name="MagentoBrain_Core:replaceMarketplaceUrl"
+                type="MagentoBrain\Core\Plugin\BackendMenu\Item" />
+    </type>
+    <type name="Magento\Backend\Model\Menu\Builder">
+        <plugin name="MagentoBrain_Core::magentobrainMenuBuilder" type="MagentoBrain\Core\Plugin\BackendMenu\Builder" />
+    </type>
+</config>

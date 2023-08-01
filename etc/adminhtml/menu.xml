@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author MagentoBrain Team
+ * @copyright Copyright (c) 2022 MagentoBrain (https://www.magentobrain.com)
+ * @package MagentoBrain_Core
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="MagentoBrain_Core::menu" title="MagentoBrain" module="MagentoBrain_Core" translate="title" sortOrder="81" resource="MagentoBrain_Core::menu"/>
+        <add id="MagentoBrain_Core::common" title="Configuration &amp; Promo" translate="title" module="MagentoBrain_Core" sortOrder="1498" parent="MagentoBrain_Core::menu" resource="MagentoBrain_Core::menu"/>
+    </menu>
+</config>
